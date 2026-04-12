@@ -616,6 +616,20 @@ function App() {
                     </div>
                   </div>
 
+                  {event.extraDetails?.map((detail) => (
+                    <div
+                      key={detail.label}
+                      className="rounded-[1.15rem] border border-current/10 bg-black/10 p-4 sm:rounded-[1.5rem] sm:p-5"
+                    >
+                      <p className="text-[10px] uppercase tracking-[0.28em] text-current/60 sm:text-[11px] sm:tracking-[0.38em]">
+                        {detail.label}
+                      </p>
+                      <p className="mt-2 text-[0.98rem] font-semibold leading-6 text-current/90 sm:text-lg sm:leading-7">
+                        {detail.value}
+                      </p>
+                    </div>
+                  ))}
+
                   <div className="pt-1 sm:pt-2">
                     <a
                       href={event.mapUrl}
@@ -705,22 +719,6 @@ function App() {
                   </p>
                   <p className="mt-2 text-lg font-semibold text-[#fff4d9]">
                     {weddingInfo.banquet}
-                  </p>
-                </div>
-                <div>
-                  <p className="text-[10px] uppercase tracking-[0.28em] text-[#f6d999]/65 sm:text-xs sm:tracking-[0.35em]">
-                    Function Hall
-                  </p>
-                  <p className="mt-2 text-lg font-semibold text-[#fff4d9]">
-                    {weddingInfo.functionHall}
-                  </p>
-                </div>
-                <div>
-                  <p className="text-[10px] uppercase tracking-[0.28em] text-[#f6d999]/65 sm:text-xs sm:tracking-[0.35em]">
-                    Buffet
-                  </p>
-                  <p className="mt-2 text-lg font-semibold text-[#fff4d9]">
-                    {weddingInfo.buffet}
                   </p>
                 </div>
               </div>

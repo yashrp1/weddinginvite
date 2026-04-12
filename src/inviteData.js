@@ -67,6 +67,16 @@ export const events = [
       "The Fern Residency",
       "Western Express Highway, Mira Road - 401107",
     ],
+    extraDetails: [
+      {
+        label: "Function Hall",
+        value: "Hazel Hall - 3rd Floor",
+      },
+      {
+        label: "Buffet",
+        value: "Senate Hall - 2nd Floor",
+      },
+    ],
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=The+Fern+Residency+Western+Express+Highway+Mira+Road+401107",
   },
@@ -96,8 +106,6 @@ export const weddingInfo = {
     "GCC Club Road - 401107",
   ],
   banquet: "Sapphire Banquet",
-  functionHall: "Hazel Hall - 3rd Floor",
-  buffet: "Senate Hall - 2nd Floor",
   mapEmbed:
     "https://www.google.com/maps?q=GCC+Club+Mira+Road&output=embed",
   mapUrl:
