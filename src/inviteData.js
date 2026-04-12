@@ -42,8 +42,7 @@ export const events = [
     venue: "Row House No-11, Classic County CHS Ltd, Mira Road - 401105",
     align: "left",
     theme: "katha",
-    image:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=80",
+    image: "/katha-matkor-event.webp",
     accent:
       "A moment of blessings, gratitude, and tradition. Let us come together to seek divine blessings for the journey ahead.",
     venueLines: [
