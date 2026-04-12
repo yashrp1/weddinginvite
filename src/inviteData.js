@@ -105,7 +105,7 @@ export const weddingInfo = {
     "Off Mira Bhayandar Road, 92/1",
     "GCC Club Road - 401107",
   ],
-  banquet: "Sapphire Banquet",
+  banquet: "Sapphire Banquet - 2nd Floor Namaste Building",
   mapEmbed:
     "https://www.google.com/maps?q=GCC+Club+Mira+Road&output=embed",
   mapUrl:
